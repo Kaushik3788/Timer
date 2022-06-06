@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(10, 10, 94), rgba(151, 165, 242, 0.078));
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(41, 43, 99);
+    margin-top: 15%;
+    padding: 2%;
+    display: flex;
+    flex-direction:column;
+    width: 30vw;
+    min-width: 450px;
+    height:min-content;
+    border-radius: 20px;
+    align-items: center;
+   justify-content: space-evenly;
+    gap: 20px;
+    
+}
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+}
+
+.time {
+    font-size: 42px;
+}
+
+.all-btn {
+   
+    flex-direction: row;
+    gap: 500px;
+    
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.178);
+    padding:12px;
+    font-size: 15px;
+    border: none;
+   border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.name
+{
+padding-left: 40%;
+    font-size: small;
+    color: rgba(188, 235, 244, 0.482);
+}
